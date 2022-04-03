@@ -1,0 +1,49 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: #b0d6aa;
+    /* background-color: #22142b; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-size: 30px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(wolf.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+}
+
+.container .name h1 {
+    font-size: 60px;
+}
+
+.container .name h5 {
+    font-size: 25px;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    display: flex;
+}
+
+header ul {
+    display: flex;
+}
+
+header div img {
+    border-radius: 45%;
+}
