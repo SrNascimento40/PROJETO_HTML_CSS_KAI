@@ -40,6 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    box-shadow: 1px 1px 5px 1px #b0d6aa;
 }
 
 header ul {
@@ -48,6 +49,10 @@ header ul {
 
 header ul li {
     padding: 7px;
+}
+
+header ul li a:hover {
+    color: #9cf08f;
 }
 
 header div img {
@@ -73,4 +78,13 @@ header div img {
     width: 15%;
     margin: 0 auto;
     color: #22142b;
+    background-color: #b0d6aa;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form button:hover{
+    background-color: #84ec74;
 }
