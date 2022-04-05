@@ -38,12 +38,39 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
+    padding: 15px;
 }
 
 header ul {
     display: flex;
 }
 
+header ul li {
+    padding: 7px;
+}
+
 header div img {
-    border-radius: 45%;
+    border-radius: 50%;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form button {
+    width: 15%;
+    margin: 0 auto;
+    color: #22142b;
 }
