@@ -34,11 +34,11 @@
                 <h1>Wallace Nascimento</h1>
                 <h5>Desenvolvedor Junior</h5>
             </div>
-            <div id="arrow">
-                <i class="fa-solid fa-angle-down"></i>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fa-solid fa-angle-down"></i>
             </div>
-            <div id="about">
-                <p>Estudante de Javascript, ReactJS, CSS, e HTML busco oportunidade para adquirir experiência com desenvolvimento web.</p>
+            <div style="display: none;" id="about">
+                <p>Estudante de Javascript, ReactJS, CSS, e HTML. Em busca de uma oportunidade para ganhar experiência com desenvolvimento web.</p>
             </div>
             <div class="form">
                 <div>
@@ -51,5 +51,13 @@
             </div>
         </section>
     </main>
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

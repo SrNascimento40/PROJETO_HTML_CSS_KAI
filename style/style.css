@@ -59,6 +59,31 @@ header div img {
     border-radius: 50%;
 }
 
+#arrow {
+    font-size: 35px;
+    cursor: pointer;
+    animation: blink 2s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#animation {
+    transition: 500ms;
+}
+
+.rotate {
+    transform: rotate(360deg);
+    transition: 500ms;
+}
+
+.active {
+    display: block !important;
+}
+
 #about p {
     max-width: 600px;
     margin: 0 auto;
@@ -72,6 +97,7 @@ header div img {
 .form input {
     width: 50%;
     margin: 0 auto;
+    color: #22142b;
 }
 
 .form button {
