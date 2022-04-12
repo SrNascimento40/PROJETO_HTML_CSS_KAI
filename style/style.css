@@ -26,6 +26,7 @@ body {
 
 .container .name h1 {
     font-size: 60px;
+    padding: 3%;
 }
 
 .container .name h5 {
@@ -92,6 +93,7 @@ header div img {
 .form {
     width: 40%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .form input {
@@ -113,4 +115,31 @@ header div img {
 
 .form button:hover{
     background-color: #84ec74;
+}
+
+@media only screen and (max-width: 480px) {
+    .container .name h1 {
+        font-size: 30px;
+    }
+    .container .name h5 {
+        font-size: 15px;
+        padding-top: 10%;
+    }
+    #about p {
+        max-width: 80%;
+        text-align: justify;
+    }
+    * {
+        background-color: #07010a; 
+    }
+    ul {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .form {
+        width: 100%;
+        padding-top: 15%;
+    }
 }
